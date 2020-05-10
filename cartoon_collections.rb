@@ -14,7 +14,7 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   array.each_with_index do |array|
-    puts 
+    puts "#{index}: #{value}"
 end
 dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
 list_dwarves(dwarves_array)
